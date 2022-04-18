@@ -64,8 +64,8 @@ const findAllPersonagensService = () => {
   return personagens;
 };
 
-const findByIdPersonagemService = (parametroId) => {
-  return personagens.find((personagem) => personagem.id === parametroId);
+const findByIdPersonagemService = (IdParam) => {
+  return personagens.find((personagem) => personagem.id === IdParam);
 };
 
 const createPersonagemService = (newPersonagem) => {

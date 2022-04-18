@@ -2,7 +2,7 @@ const route = require('express').Router();
 const controllerPersonagens = require('../controllers/personagem.controller');
 
 route.get(
-  '/todas-personagens',
+  '/all-personagens',
   controllerPersonagens.findAllPersonagensController,
 );
 route.get(
